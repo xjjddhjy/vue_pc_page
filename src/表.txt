@@ -1,0 +1,30 @@
+学生管理系统
+
+admin表
+    编辑
+        用户名(唯一的登录账号) 只能看不能动
+        密码验证
+        旧密码  点击编辑后验证密码是否跟数据库的密码一致
+        新密码  新密码+新密码盐
+        确认密码  新密码跟确认密码做验证
+        头像上传
+        给它一个新的页面改头像
+student表
+    增删查改
+    头像上传功能
+    注册时间
+        moment  npm install moment --save
+        //时间转化的插件挂载  在main.js
+            import moment from 'moment'; //导入模块
+            moment.locale('zh-cn'); //设置语言 或 moment.lang('zh-cn'); 
+            Vue.prototype.$moment = moment;//赋值使用
+department表  系部表
+    增删查改
+    条件搜索
+class表
+    增删查改
+    条件搜索
+
+score表
+    增删查改
+    条件搜索
